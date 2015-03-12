@@ -3,7 +3,7 @@ elasticsearch:
   ports:
     - "9200:9200"
 logstash:
-  image: deviantony/elk-logstash
+  image: erikthorselius/elk-logstash
   volumes:
     - logstash-conf:/etc/logstash/conf.d
   ports:
